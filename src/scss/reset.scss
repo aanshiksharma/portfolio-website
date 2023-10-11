@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Body Element for each and every page
+body {
+  line-height: 1.7;
+  min-height: 100vh;
+  background: var(--clr-primary-700);
+  color: var(--clr-neutral-100);
+  font-family: Inter, Roboto, "Open Sans", sans-serif;
+  position: relative;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}

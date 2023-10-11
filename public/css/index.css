@@ -1,0 +1,105 @@
+.hero {
+  min-height: 32rem;
+}
+
+.about {
+  margin-block: 4em;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+}
+.about img {
+  width: 18rem;
+}
+.about .about-text {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+.about .about-text p {
+  margin-block: 0.8em;
+}
+.about .about-text a {
+  color: var(--clr-accent-100);
+}
+.about .about-text a:hover {
+  color: var(--clr-accent-200);
+}
+
+.skills-banner {
+  padding-block: 3em;
+  padding-inline: 1em;
+  background: var(--clr-primary-400);
+}
+.skills-banner .skills-banner-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+.skills-banner .skills-banner-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  transition: 200ms ease-out;
+}
+.skills-banner .skills-banner-list li img {
+  max-width: 6rem;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+.skills-banner .skills-banner-list li:hover {
+  scale: 1.05;
+}
+
+.projects {
+  display: grid;
+  gap: 6em;
+  padding-block: 4em;
+}
+.projects .project {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2em;
+  padding: 0.5em 1em;
+}
+.projects .project img {
+  width: 12rem;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+.projects .project .project-description {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+.projects .project .project-description p {
+  margin-block: 0.8em 1.2em;
+}
+.projects .project .project-description a {
+  text-decoration: none;
+  padding: 0.8em 1.6em;
+  color: var(--clr-neutral-400);
+  background: var(--clr-accent-100);
+  border-radius: 6px;
+}
+.projects .project .project-description a:hover {
+  background: var(--clr-accent-200);
+}
+.projects .project:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+.projects > a {
+  padding-inline: 1em;
+  color: var(--clr-neutral-400);
+}
+.projects > a:hover {
+  color: var(--clr-neutral-100);
+}
+
+/*# sourceMappingURL=index.css.map */

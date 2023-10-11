@@ -1,0 +1,33 @@
+.text-center {
+  text-align: center;
+}
+
+.hr {
+  padding-inline: 0.5em;
+  margin-block: 1em;
+}
+
+.btn {
+  background: transparent;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.navbar-active {
+  transform: translateX(0) !important;
+}
+
+// Bootstrap Icons
+.bi {
+  width: 1em;
+  height: 1em;
+
+  &::before {
+    display: block;
+  }
+}
